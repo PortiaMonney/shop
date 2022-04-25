@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 
 app.use("/auth", authRouter);
-app.use("/product", productRouter);
+app.use("/products", productRouter);
 
 const start = async () => {
   await dbConnect();

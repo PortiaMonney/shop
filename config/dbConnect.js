@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const dbConnect = async () => {
   try {
     //connectint to the database
-    await mongoose.connect("mongodb://127.0.0.1:27017/shop");
+    await mongoose.connect("mongodb://127.0.0.1:27017/newshop");
     console.log("Database connected successfully");
   } catch (error) {
     // throw error for debugging
